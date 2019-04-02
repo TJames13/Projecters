@@ -1,0 +1,33 @@
+/*Title*/
+h1 {
+  text-align: center;
+    font-size: 50px;
+     font-style: italic;
+     background-image: url("cloud.png");
+     background-size: 43px;
+   font-family: sans-serif;
+}
+
+/*Body*/
+
+body {
+  background-image: linear-gradient(lightpink, #ff99ff, #80aaff);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+  background-color: White;
+}
+/*Options*/
+
+#A, #B, #C, #D, #E {
+  display: inline-block;
+  text-align: center;
+  background-color: transparent;
+  border: transparent;
+  padding: transparent;
+    margin: 200px;
+    margin-bottom: 200px;
+  font-size: 50px;
+}

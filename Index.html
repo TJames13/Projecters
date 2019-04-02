@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style.css">
+  <title> Toy Store </title>
+ </head>
+    <body>
+        <h1>The Perfect Toy Center</h1>
+
+<!--Options-->
+
+          <nav>
+              <select id='A'>
+          <option value="">Stuffies for Toughies</option>
+          <option value="Dog.html">Dog</option>
+          <option value="Cat.html">Cat</option>
+          <option value="Giraffe.html">Giraffe</option>
+          <option value="Turtle.html">Turtle</option>
+          <option value="Penguin.html">Penguin</option>
+      </select>
+
+          <select id='B'>
+      <option value="">Transforming Robots</option>
+      <option value="Dog.html">Firey Blue Truck</option>
+      <option value="Cat.html">Yellow Bug</option>
+      <option value="Giraffe.html">Blues</option>
+      <option value="Turtle.html">Big Bad Robot</option>
+      <option value="Penguin.html">Loud Yeller</option>
+  </select>
+
+      <select id='C'>
+  <option value="">Balls for them Alls</option>
+  <option value="Dog.html">BeachBall/option>
+  <option value="Cat.html">Football</option>
+  <option value="Giraffe.html">Kickball</option>
+  <option value="Turtle.html">BounceyBalls</option>
+  <option value="Penguin.html">Marbles</option>
+</select>
+
+    <select id='D'>
+<option value="">Cook by the Book</option>
+<option value="Dog.html">Oven set</option>
+<option value="Cat.html">Stove set</option>
+<option value="Giraffe.html">Hot Dog Stand</option>
+<option value="Turtle.html">Grill Set</option>
+<option value="Penguin.html">Icecream set</option>
+</select>
+
+    <select id='E'>
+<option value="">Blocks That Interlock With One Another</option>
+<option value="Dog.html">Helicopter</option>
+<option value="Cat.html">Motorcycle</option>
+<option value="Giraffe.html">Dinosaur</option>
+<option value="Turtle.html">Pirate</option>
+<option value="Penguin.html">Spaceship</option>
+</select>
+
+<!--Javascript-->
+
+      <script>
+    document.getElementById("A").onchange = function()
+     {
+        if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+          }
+    };
+
+    document.getElementById("B").onchange = function()
+     {
+        if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+          }
+    };
+
+    document.getElementById("C").onchange = function()
+     {
+        if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+          }
+    };
+
+    document.getElementById("D").onchange = function()
+     {
+        if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+          }
+    };
+
+    document.getElementById("E").onchange = function()
+     {
+        if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+          }
+    };
+</script>
+
+<!-- End of Javascript-->
+
+          </nav>
+     </body>
+</html>
